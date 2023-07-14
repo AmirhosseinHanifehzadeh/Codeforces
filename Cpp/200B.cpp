@@ -5,12 +5,12 @@ using namespace std;
 int main() {
 	int n; cin >> n; 
 
-	float res; 	
+	float sum; 	
 
 	for (int i = 1; i <= n; i++) {
-		int a; cin >> a; 
-		res += (float)(a / 100); 
+		int p; cin >> p; 
+		sum += (float)p; 
 	} 
 
-	cout << res / n; 
+	cout << sum / n; 
 }
